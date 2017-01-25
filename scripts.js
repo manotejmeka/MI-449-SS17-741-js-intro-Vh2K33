@@ -11,27 +11,21 @@ var audioKick = new Audio('drum-sounds/kick.wav');
 
 
 buttonBoom.addEventListener('click', function () {
-  console.log('I was Boom!');
   audioBoom.play();
 });
 buttonHiHat.addEventListener('click', function () {
-  console.log('I was HiHat!');
   audioHiHat.play();
 });
 buttonKick.addEventListener('click', function () {
-  console.log('I was Kick!');
   audioKick.play();
 });
 
 buttonBoom.addEventListener('mouseenter', function () {
-  console.log('I was Boom!');
   audioBoom.play();
 });
 buttonHiHat.addEventListener('mouseenter', function () {
-  console.log('I was HiHat!');
   audioHiHat.play();
 });
 buttonKick.addEventListener('mouseenter', function () {
-  console.log('I was Kick!');
   audioKick.play();
 });
